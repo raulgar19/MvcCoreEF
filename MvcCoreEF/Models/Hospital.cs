@@ -9,18 +9,14 @@ namespace MvcCoreEF.Models
     {
         [Key]
         [Column("HOSPITAL_COD")]
-        public int HospitalId { get;set; }
-
+        public int IdHospital { get; set; }
         [Column("NOMBRE")]
-        public string Nombre { get;set; }
-
+        public string Nombre { get; set; }
         [Column("DIRECCION")]
-        public string Direccion { get;set; }
-
+        public string Direccion { get; set; }
         [Column("TELEFONO")]
-        public string Telefono { get;set; }
-
+        public string Telefono { get; set; }
         [Column("NUM_CAMA")]
-        public int Camas { get;set; }
+        public int Camas { get; set; }
     }
 }
