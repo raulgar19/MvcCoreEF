@@ -11,16 +11,16 @@ namespace MvcCoreEF.Models
         [Column("HOSPITAL_COD")]
         public int HospitalId { get;set; }
 
-        [Column("HOSPITAL_COD")]
+        [Column("NOMBRE")]
         public string Nombre { get;set; }
 
-        [Column("NOMBRE")]
+        [Column("DIRECCION")]
         public string Direccion { get;set; }
 
         [Column("TELEFONO")]
         public string Telefono { get;set; }
 
-        [Column("NUM_CAMAS")]
+        [Column("NUM_CAMA")]
         public int Camas { get;set; }
     }
 }
